@@ -3,12 +3,11 @@ def addPick(cue, dict):
     response = input(str)
     dict[cue] = response
 
-def tellStory(): 
-    userPicks = dict() 
-    addPick('animal', userPicks) 
-    addPick('food', userPicks) 
-    addPick('city', userPicks) 
+def tellStory():
+    userPicks = dict()
+    addPick('animal', userPicks)
+    addPick('food', userPicks)
+    addPick('city', userPicks)
     print(userPicks)
 
 tellStory()
-
