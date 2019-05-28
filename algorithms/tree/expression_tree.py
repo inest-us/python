@@ -13,7 +13,7 @@ def evaluate(root):
     if root.data == PLUS:
         return evaluate(root.left) + evaluate(root.right)
     elif root.data == MINUS:
-        return evaluate(root.left) + evaluate(root.right)
+        return evaluate(root.left) - evaluate(root.right)
     elif root.data == TIMES:
         return evaluate(root.left) * evaluate(root.right)
     elif root.data == DIVIDE:
